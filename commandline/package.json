@@ -1,0 +1,19 @@
+{
+  "author": "kailu",
+  "name": "commandline",
+  "description": "an nodejs command line shell",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.x"
+  },
+  "subdomain": "commandline",
+  "scripts": {
+    "start": "commandline.js"
+  }
+}

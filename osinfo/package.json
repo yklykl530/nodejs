@@ -1,0 +1,20 @@
+{
+  "author": "kailu",
+  "name": "osinfo",
+  "description": "Show Server system info",
+  "version": "0.1.0-3",
+  "repository": {
+    "url": ""
+  },
+  "main": "osinfo.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.x"
+  },
+  "subdomain": "osinfo",
+  "scripts": {
+    "start": "osinfo.js"
+  }
+}

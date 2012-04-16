@@ -1,0 +1,16 @@
+{
+  "author": "kailu",
+  "name": "http_proxy",
+  "description": "A http proxy server",
+  "version": "0.2.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "http_proxy.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
