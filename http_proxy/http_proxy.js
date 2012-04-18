@@ -10,9 +10,10 @@ var url = require("url");
 
 http.createServer(function (req, res) {
 	console.log("************* server request URL :"+req.url+" ************");
-	console.log(req.headers);
-   var urlToProxy =url.parse(req.url,true).query.u;
-	console.log("request path :"+urlToProxy)
+//	console.log(req.headers);
+  // var urlToProxy =url.parse(req.url,true).query.u;
+   var urlToProxy =req.url
+//	console.log("request path :"+urlToProxy)
    if (!urlToProxy) {
        res.statusCode = 400;
        res.end("must have URL");
